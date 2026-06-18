@@ -23,5 +23,37 @@
 }
 
 body{
-  background-color: var(--grey100)
+  background-color: var(--grey100); 
+  min-height: 100vh;
+  display: flex; 
+  justify-content: center; 
+  padding: 5rem 2rem;
+
+}
+
+main{
+  /* background-color: red; */
+  width: 100%; 
+  max-width: 375px; 
+}
+
+.testimonials{
+  /* background-color: pink;  */
+  display: grid; 
+  grid-auto-rows: auto;
+  gap: 2rem;
+}
+
+.testimonial-card{
+  background-color: rgb(15, 183, 206);
+  padding: 1.8rem;
+  border-radius: 8px; 
+
+  display: grid;
+  gap: 1rem;
+}
+
+.user-info{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
 }
