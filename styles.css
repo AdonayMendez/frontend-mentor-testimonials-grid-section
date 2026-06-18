@@ -45,12 +45,31 @@ main{
 }
 
 .testimonial-card{
-  background-color: rgb(15, 183, 206);
-  padding: 1.8rem;
+  padding: 2rem;
   border-radius: 8px; 
 
   display: grid;
   gap: 1rem;
+}
+
+.testimonial-card-1{
+  background-color: var(--purple500);
+}
+
+.testimonial-card-2{
+  background-color: var(--grey500);
+}
+
+.testimonial-card-3{
+  background-color: var(--white);
+}
+
+.testimonial-card-4{
+  background-color: var(--darkBlue);
+}
+
+.testimonial-card-5{
+  background-color: var(--white);
 }
 
 .user-info{
