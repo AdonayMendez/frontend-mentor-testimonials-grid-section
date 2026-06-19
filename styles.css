@@ -38,7 +38,6 @@ main{
 }
 
 .testimonials{
-  /* background-color: pink;  */
   display: grid; 
   grid-auto-rows: auto;
   gap: 2rem;
@@ -50,27 +49,20 @@ main{
 
   display: grid;
   gap: 1rem;
+
+  h3{
+    font-size: 1.2rem;
+    color: var(--white);
+    font-weight: 600;
+  }
+
+  p{
+    font-size: 0.8125rem;
+    font-weight: 400;
+    color: var(--grey100);
+  }
 }
 
-.testimonial-card-1{
-  background-color: var(--purple500);
-}
-
-.testimonial-card-2{
-  background-color: var(--grey500);
-}
-
-.testimonial-card-3{
-  background-color: var(--white);
-}
-
-.testimonial-card-4{
-  background-color: var(--darkBlue);
-}
-
-.testimonial-card-5{
-  background-color: var(--white);
-}
 
 .user-info{
   display: grid;
@@ -85,7 +77,6 @@ main{
     height: 32px;
     /* margin: auto 0; */
     border-radius: 50%;
-    border: 2px solid var(--purple300);
     display: block;
     object-fit: cover;
   }
@@ -94,13 +85,60 @@ main{
 .user-heading{
 
   h2, p{
-    color: var(--white);
+    color: var(--grey100);
     font-size: .7rem;
     line-height: 1.5;
     font-weight: 500;
   }
-
   p{
-    font-weight: 400;
+    font-weight: 500;
+  }
+}
+
+.testimonial-card-1{
+  background-color: var(--purple500);
+
+  img{
+    border: 2px solid var(--purple300);
+  }
+}
+
+
+.testimonial-card-2{
+  background-color: var(--grey500);
+}
+
+.testimonial-card-3{
+  background-color: var(--white);
+
+  .user-heading{
+    h2, p{
+    color: var(--grey500);
+   }
+  }
+
+  h3, p{
+    color: var(--grey500);  
+  }
+}
+.testimonial-card-4{
+  background-color: var(--darkBlue);
+
+  img{
+    border: 2px solid var(--purple500)
+  }
+}
+
+.testimonial-card-5{
+  background-color: var(--white);
+
+  .user-heading{
+    h2, p{
+    color: var(--grey500);
+   }
+  }
+
+  h3, p{
+    color: var(--grey500);  
   }
 }
