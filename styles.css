@@ -32,7 +32,6 @@ body{
 }
 
 main{
-  /* background-color: red; */
   width: 100%; 
   max-width: 375px; 
 }
@@ -76,7 +75,6 @@ main{
   img{
     width: 32px; 
     height: 32px;
-    /* margin: auto 0; */
     border-radius: 50%;
     display: block;
     object-fit: cover;
@@ -144,6 +142,8 @@ main{
   }
 }
 
+/*! Media Queries  */
+
 @media (min-width: 56.25rem){
   body{
   padding: 5rem;
@@ -176,10 +176,10 @@ main{
   }
 }
 
+
 @media (56.25rem < width < 75rem){
 
   main{
-    /* background-color: green; */
     max-width: 900px;
   }
 
@@ -187,7 +187,7 @@ main{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-   .testimonial-card-1,
+  .testimonial-card-1,
   .testimonial-card-4,
   .testimonial-card-5{
     grid-row: auto;
