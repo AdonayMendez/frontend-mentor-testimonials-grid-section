@@ -33,7 +33,7 @@ body{
 
 main{
   width: 100%; 
-  max-width: 375px; 
+  /* max-width: 375px;  */
 }
 
 .testimonials{
@@ -149,8 +149,6 @@ main{
   body{
   padding: 5rem;
   align-items:center;
-
-
   }
   main{
     max-width: 1140px;
@@ -178,10 +176,15 @@ main{
 }
 
 
-@media (56.25rem < width < 75rem){
+@media (55rem < width < 75rem){
+
+  body{
+    padding: 5rem;
+    align-items:center;
+  }
 
   main{
-    max-width: 900px;
+    /* max-width: 900px; */
   }
 
   .testimonials{
